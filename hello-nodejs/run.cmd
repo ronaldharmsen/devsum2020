@@ -1,0 +1,1 @@
+dapr run --app-id nodeapp --app-port 3000 --port 3500 node app.js

@@ -1,0 +1,1 @@
+curl http://localhost:5050/v1.0/invoke/sample/method/hello

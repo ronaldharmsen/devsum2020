@@ -1,0 +1,10 @@
+POST http://localhost:3500/v1.0/invoke/nodeapp/method/neworder
+
+{ "data": {"orderId":"42"} }
+
+###
+
+GET http://localhost:3500/v1.0/invoke/nodeapp/method/order
+
+### Directly from the statestore
+GET http://localhost:3500/v1.0/state/statestore/order
